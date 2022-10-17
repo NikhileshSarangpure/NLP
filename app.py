@@ -7,6 +7,8 @@ import numpy as np
 import re
 import streamlit as st
 
+st.title("NLP")
+
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
